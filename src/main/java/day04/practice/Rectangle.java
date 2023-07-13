@@ -22,10 +22,10 @@ class Shape {
 	}
 
 	public Shape() {
-//		Default
+
 	}
 
-//	Constructor
+
 	public Shape(int length, int breadth) {
 		this.length = length;
 		this.breadth = breadth;
