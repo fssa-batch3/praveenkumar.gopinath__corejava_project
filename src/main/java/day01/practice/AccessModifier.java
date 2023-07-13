@@ -5,19 +5,12 @@ public class AccessModifier {
     public String b = "b";
     public String c = "c";
     public static String d = "d";
-    
-    public static void.print {
-    	System.out.println(a);
-      System.out.println(b);
-      System.out.println(c);
-      System.out.println(d);
-    }
 
-//    public static void main(String[] args) {
-//        AccessModifier instance = new AccessModifier();
-//        System.out.println(instance.a);
-//        System.out.println(instance.b);
-//        System.out.println(instance.c);
-//        System.out.println(d);
-//    }
-//}
+    public static void main(String[] args) {
+        AccessModifier instance = new AccessModifier();
+        System.out.println(instance.a);
+        System.out.println(instance.b);
+        System.out.println(instance.c);
+        System.out.println(d);
+    }
+}

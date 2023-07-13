@@ -39,7 +39,7 @@ public class User {
     public String getEmailId() {
     	return emailId;
     }
-    public static void main(String[] args) { 
+    public static void main(String[] args){ 
     	// set the information
         User user = new User();
         user.setId(6);
