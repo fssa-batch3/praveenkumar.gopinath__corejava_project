@@ -83,7 +83,6 @@ class Lion2 extends Animal1 {
 }
 
 class Giraffe extends Animal1 {
-	@SuppressWarnings("unused")
 	private int height;
 
 }
