@@ -1,19 +1,18 @@
 package day06.practice;
 
-import java.util.ArrayList;
-import java.util.HashSet; 
+import java.util.ArrayList; 
 import java.util.List;
 
 public class RemoveDuplicate {
     public static void main(String[] args) {
-//        List<String> cityList = new ArrayList<>();
-        HashSet<String>cityList = new HashSet<String>();
+        List<String> cityList = new ArrayList<>();
+        
         cityList.add("Chennai");
         cityList.add("Bangalore");
         cityList.add("Mumbai");
         cityList.add("Mumbai");
-//
-//        List<String> newCity = new ArrayList<>();
+
+        List<String> newCity = new ArrayList<>();
 //        for (String city : cityList) {
 //            boolean city2 = false;
 //          for (String newCity1 : newCity) {
@@ -28,12 +27,11 @@ public class RemoveDuplicate {
 //        }
 //        for (String city : newCity) {
 //            System.out.println(city);
-//        
-//        
-//        }
-        
-//        HashSet<String>newCity = new HashSet<String>();
-        System.out.println(cityList);        
+//        }     
+//        System.out.println(cityList);  
+        for (int i = 0; i <cityList.size(){
+        	if (newCity1.equals())
+        }
         
     }
 }
