@@ -13,25 +13,22 @@ public class RemoveDuplicate {
         cityList.add("Mumbai");
 
         List<String> newCity = new ArrayList<>();
-//        for (String city : cityList) {
-//            boolean city2 = false;
-//          for (String newCity1 : newCity) {
-//             if (newCity1.equals(city)) {
-//            	 city2 = true;
-//               break;
-//           }
-//          }
-//          if (!city2) {
-//            newCity.add(city);
-//         }
-//        }
-//        for (String city : newCity) {
-//            System.out.println(city);
-//        }     
-//        System.out.println(cityList);  
-        for (int i = 0; i <cityList.size(){
-        	if (newCity1.equals())
+        for (String city : cityList) {
+            boolean city2 = false;
+          for (String newCity1 : newCity) {
+             if (newCity1.equals(city)) {
+            	 city2 = true;
+               break;
+           }
+          }
+          if (!city2) {
+            newCity.add(city);
+         }
         }
+        for (String city : newCity) {
+            System.out.println(city);
+        }     
+        System.out.println(cityList);        
         
     }
 }
