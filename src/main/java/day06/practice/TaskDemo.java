@@ -1,27 +1,39 @@
 package day06.practice;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class TaskDemo {
-	private List<Task> taskArray = new ArrayList<Task>();
+
+	private ArrayList<Task> tasks = new ArrayList<>();
+	
+	public ArrayList<Task> getTasks(){
+		return this.tasks;
+	}
+
 	public void addTask(String name, int priority) {
 		Task task = new Task(name, priority);
-		taskArray.add(task);
+		tasks.add(task);
 	}
-	public void printTask() {
-		for(Task t : taskArray) {
-			System.out.println(t.getName()+" "+t.getPriority());
+
+	public void printTasks() {
+		for (Task task : tasks) {
+			System.out.println("For Task " + task.getTaskName() + " has priority number " + task.getPriority());
+
 		}
+
 	}
+
 	public static void main(String[] args) {
-		TaskDemo s = new TaskDemo();
-		s.addTask("HTML", 0);
-		s.addTask("java", 1);
-		s.printTask();
+
+		TaskDemo task = new TaskDemo();
+
+		task.addTask("Wake", 3);
+		task.addTask("Eat", 3);
+		task.addTask("Play", 5);
+		task.addTask("Sleep", 3);
 		
-		
-		// TODO Auto-generated method stub
+		task.printTasks();
+
 	}
 
 }
