@@ -2,7 +2,7 @@ package day06.practice;
 
 import java.util.*;
 
-public class TaskDemo {
+public class TaskDetails {
 
 	private ArrayList<Task> tasks = new ArrayList<>();
 	
@@ -25,12 +25,12 @@ public class TaskDemo {
 
 	public static void main(String[] args) {
 
-		TaskDemo task = new TaskDemo();
+		TaskDetails task = new TaskDetails();
 
-		task.addTask("Wake", 3);
-		task.addTask("Eat", 3);
-		task.addTask("Play", 5);
-		task.addTask("Sleep", 3);
+		task.addTask("Brush", 1);
+		task.addTask("Bath", 1);
+		task.addTask("Going Academy", 0);
+		task.addTask("Sleeping", 4);
 		
 		task.printTasks();
 
