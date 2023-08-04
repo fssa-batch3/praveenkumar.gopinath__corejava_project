@@ -1,7 +1,5 @@
 package day12.practice;
 
-import day12.practice.DAOException.*;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.sql.Connection;
@@ -18,7 +16,6 @@ import org.junit.jupiter.api.Test;
 
 import day06.practice.*;
 import day11.practice.DAOException;
-
 
 public class TestTaskDAO {
 
