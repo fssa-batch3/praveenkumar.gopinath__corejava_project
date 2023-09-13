@@ -2,38 +2,44 @@ package day03.practice;
 
 public class User {
 	
-//	Attributes
 	private String name;
 	private String email;
 	private String password;
 	
-//	Default constructor
 	public User() {
 		
 	}
 	
-//	Main constructor
+	
 	public User(String name,String email,String password) {
 		this.name = name;
 		this.email = email;
 		this.password = password;
 	}
 	
-//	Getter 
+	public User(String email, String password) {
+		this.email = email;
+		this.password = password;
+	}
+		
+
+	
+	
 	public String getName() {
 		return name;
 	}
-	
+
 	public String getEmail() {
 		return email;
 	}
 	
 	public String getPassword() {
+		
 		return password;
 	}
 	
 	
-//	Setters
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -46,27 +52,4 @@ public class User {
 		this.password = password;
 	}
 	
-
-	public static void main(String[] args) {
-		
-		User user1 = new User("Praveen","praveen@gmail.com","pravyn123");
-		System.out.println("Name: "+user1.name);
-		System.out.println("Email: "+user1.email);
-		System.out.println("Password: "+user1.password);
-		
-		System.out.println();
-		
-		User user2 = new User();
-		user2.setName("Kumar");
-		user2.setEmail("kumar@gmail.com");
-		user2.setPassword("kumar@2022");
-		
-		System.out.println("Name: "+user2.getName());
-		System.out.println("Email: "+user2.getEmail());
-		System.out.println("Password: "+user2.getPassword());
-		
-		
-
-	}
-
 }

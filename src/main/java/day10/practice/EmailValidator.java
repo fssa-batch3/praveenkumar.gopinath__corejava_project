@@ -16,15 +16,14 @@ public class EmailValidator {
 			throw new InvalidEmailException("Email Id is empty");
 		else if (!matcher.matches())
 			throw new InvalidEmailException("Invalid Email Id");
-
 		return true;
-
 	}
+	 
 
 	public static void main(String[] args) {
 
 		try {
-			System.out.println(new EmailValidator().isValidEmail("arungmail.com"));
+			System.out.println(new EmailValidator().isValidEmail("praveen@gmail.com"));
 		} catch (InvalidEmailException e) {
 			e.printStackTrace();
 		}
